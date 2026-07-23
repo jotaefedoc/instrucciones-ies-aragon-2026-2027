@@ -5,7 +5,7 @@ source_format: "PDF firmado electrónicamente"
 source_pages: 77
 source_sha256: "8d7a19a5e1413076e0c5934a0188bf5466a1a40e87163f8bf46d8a4a58dd1a51"
 source_signature_date: "2026-07-06"
-transcription_status: "extracción estructurada pendiente de cotejo humano final"
+transcription_status: "v1.0-fiel; cotejo humano final concluido"
 ---
 
 # Instrucciones para los Institutos de Educación Secundaria de la Comunidad Autónoma de Aragón en relación con el curso 2026/2027
