@@ -5,7 +5,7 @@ derived_from:
   - "../../instrucciones-ies-2026-2027-canonico.md"
   - "../calendario/calendario-maestro.md"
 canonical_status: "v1.0-fiel"
-updated: "2026-07-23"
+updated: "2026-07-24"
 scope: "Preparación previa a 3 de noviembre de 2026"
 ---
 
@@ -137,7 +137,50 @@ Esta lista es un **derivado operativo público** de las *Instrucciones para los 
 
 ---
 
-## 3. Septiembre de 2026
+## 3. Programas educativos: preparación y solicitud prioritaria
+
+> Dossier específico: [Programas educativos de Aragón. Convocatoria 2026/2027](../programas-educativos/programas-educativos-2026-2027.md).
+
+### Preparación previa a septiembre
+
+- [ ] **Difundir la convocatoria y recabar propuestas de participación.**
+  - **Momento recomendado:** junio-julio de 2026 y, como cierre, antes del 1 de septiembre.
+  - **Comprobar:** programa, destinatarios, modalidad, criterios de selección, profesorado, carga de trabajo, costes, desplazamientos y documentación complementaria.
+  - **Evidencia de cierre:** relación de programas valorados y decisión de preparar o descartar cada solicitud.
+  - **Fuente:** Resolución de convocatoria de programas educativos 2026/2027, Anexo I.
+
+- [ ] **Preparar un expediente independiente por cada programa que se vaya a solicitar.**
+  - **Requisitos:** persona responsable provisional, proyecto o plan exigido, documentos adjuntos, procedimiento correcto y firma electrónica operativa.
+  - **PALE:** un trámite independiente por cada idioma.
+  - **Evidencia de cierre:** expediente completo y revisado antes de la apertura del plazo.
+  - **Fuente:** Resolución, apartado Tercero y Anexo I.
+
+### Presentación y seguimiento
+
+- [ ] **Presentar telemáticamente cada solicitud de programa educativo.**
+  - **Plazo oficial:** del **2 al 18 de septiembre de 2026, ambos incluidos**.
+  - **Responsable institucional:** centro; firma electrónica de la persona autorizada.
+  - **Evidencia de cierre:** justificante de registro archivado por cada programa o idioma.
+  - **Fuente:** Resolución, apartado Tercero.
+
+- [ ] **Vigilar notificaciones y atender posibles subsanaciones.**
+  - **Plazo:** el indicado en el requerimiento.
+  - **Evidencia de cierre:** subsanación registrada o constancia de que no fue requerida.
+  - **Fuente:** Resolución, apartado Cuarto.
+
+- [ ] **Comprobar la propuesta provisional y valorar alegaciones.**
+  - **Plazo de alegaciones:** diez días hábiles desde el día siguiente a su publicación.
+  - **Evidencia de cierre:** resultado revisado y, en su caso, alegación registrada.
+  - **Fuente:** Resolución, apartado Quinto.
+
+- [ ] **Comprobar la resolución definitiva e integrar los programas concedidos en la planificación.**
+  - **Actuaciones:** comunicar el resultado, designar responsable, incorporar el programa a la PGA y a las programaciones o planes que correspondan y registrar sus hitos.
+  - **Evidencia de cierre:** resolución archivada y planificación actualizada.
+  - **Fuente:** Resolución, apartados Quinto y Séptimo; Anexo I.
+
+---
+
+## 4. Septiembre de 2026
 
 - [ ] **Verificar la recepción de la documentación justificativa de acceso del alumnado de centros privados no concertados adscritos.**
   - **Plazo oficial:** antes del 15 de septiembre de 2026.
@@ -159,7 +202,7 @@ Esta lista es un **derivado operativo público** de las *Instrucciones para los 
 
 ---
 
-## 4. Octubre de 2026: Documento de Organización del Centro
+## 5. Octubre de 2026: Documento de Organización del Centro
 
 ### Preparación y validación del DOC
 
@@ -195,7 +238,7 @@ Esta lista es un **derivado operativo público** de las *Instrucciones para los 
 
 ---
 
-## 5. Octubre-noviembre de 2026: Programación General Anual
+## 6. Octubre-noviembre de 2026: Programación General Anual
 
 - [ ] **Comprobar que la PGA incorpora los documentos, planes, programas y concreciones exigibles al centro.**
   - **Responsable institucional:** Dirección / equipo directivo, con participación de los órganos correspondientes.
@@ -218,7 +261,7 @@ Esta lista es un **derivado operativo público** de las *Instrucciones para los 
 
 ---
 
-## 6. Actuaciones condicionadas a programas o enseñanzas
+## 7. Actuaciones condicionadas a programas o enseñanzas
 
 Estas tareas no deben incorporarse al núcleo común hasta confirmar que resultan aplicables al centro.
 
@@ -284,7 +327,7 @@ Estas tareas no deben incorporarse al núcleo común hasta confirmar que resulta
 
 ---
 
-## 7. Rutinas que deben quedar activadas desde septiembre
+## 8. Rutinas que deben quedar activadas desde septiembre
 
 - [ ] **Establecer la elaboración mensual del parte de faltas de asistencia del profesorado.**
   - **Regla:** debe quedar disponible antes del día 5 de cada mes, junto con los justificantes; no se remite ordinariamente.
@@ -307,7 +350,7 @@ Estas tareas no deben incorporarse al núcleo común hasta confirmar que resulta
 
 ---
 
-## 8. Hoja de cierre de la fase de inicio de curso
+## 9. Hoja de cierre de la fase de inicio de curso
 
 La fase puede considerarse cerrada cuando se hayan verificado estas evidencias mínimas:
 
@@ -325,7 +368,7 @@ La fase puede considerarse cerrada cuando se hayan verificado estas evidencias m
 
 ---
 
-## 9. Campos para la futura copia privada del IES Pablo Gargallo
+## 10. Campos para la futura copia privada del IES Pablo Gargallo
 
 La adaptación interna podrá añadir, sin publicarlos en este repositorio:
 
