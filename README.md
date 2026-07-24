@@ -14,6 +14,7 @@ El PDF oficial firmado continúa siendo la referencia jurídica primaria. Para d
 - `sections/`: archivos generados automáticamente a partir del documento maestro.
 - `derived/`: calendarios, listas de control, resúmenes, HTML y otros productos interpretativos.
 - `scripts/`: utilidades reproducibles para validar, dividir y exportar.
+- `templates/`: modelos públicos vacíos para crear copias de trabajo en entornos privados.
 
 ## Regla esencial
 
@@ -28,8 +29,14 @@ Si en el futuro se detecta un posible error de transcripción, deberá contrasta
 3. Regenerar los archivos de `sections/` mediante script, no mediante copia y pega.
 4. Crear HTML, calendarios, listas de control y herramientas dentro de `derived/`.
 5. Citar siempre apartado y página de origen en cada producto operativo.
-6. Mantener fuera del repositorio público cualquier dato personal o decisión interna del IES Pablo Gargallo.
+6. Mantener fuera del repositorio público cualquier dato personal o decisión interna de un centro.
+
+## Plantilla pública de adaptación
+
+La [plantilla genérica de adaptación para centros](templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md) permite crear, en un espacio privado independiente, una copia operativa con responsables, fechas internas, estados, decisiones y referencias controladas a evidencias.
+
+La plantilla pública debe permanecer vacía. Una copia cumplimentada no debe volver a este repositorio. Los datos personales y documentos reales deben conservarse fuera de GitHub, en el almacenamiento institucional autorizado.
 
 ## GitHub
 
-Este repositorio público conserva el historial y permite enlazar una versión exacta de la fuente. Los derivados públicos pueden mantenerse aquí. Los documentos adaptados al IES Pablo Gargallo que contengan decisiones internas o datos personales deben guardarse en un entorno privado separado.
+Este repositorio público conserva el historial y permite enlazar una versión exacta de la fuente. Los derivados y modelos genéricos públicos pueden mantenerse aquí. Las adaptaciones cumplimentadas que contengan decisiones internas deben guardarse en un entorno privado separado; los datos personales y documentos confidenciales deben permanecer fuera de GitHub.
