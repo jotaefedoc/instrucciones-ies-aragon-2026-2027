@@ -204,6 +204,18 @@ Referencias: 12.5 y 12.13-12.16, pp. 63 y 67-70.
 
 ## 9. Programas y enseñanzas condicionadas
 
+### Convocatoria general de programas educativos 2026/2027
+
+- Preparar antes de septiembre la selección de programas, responsables provisionales y documentación complementaria.
+- Presentar un trámite electrónico por programa entre el **2 y el 18 de septiembre de 2026**; en PALE, uno por idioma.
+- Archivar cada justificante de registro y atender subsanaciones y posibles alegaciones.
+- Tras la resolución definitiva, designar responsable, integrar el programa concedido en la PGA y en los documentos que correspondan y controlar sus hitos.
+- Elaborar una memoria final independiente por programa y tramitar la certificación conforme a las instrucciones posteriores.
+
+Documento específico: [Programas educativos de Aragón. Convocatoria 2026/2027](../programas-educativos/programas-educativos-2026-2027.md).
+
+Referencias: Resolución de convocatoria 2026/2027, apartados Tercero a Octavo y Anexos I-II.
+
 ### BRIT-Aragón e itinerario bilingüe
 
 - Elaborar el Itinerario Bilingüe y aprobarlo por el Claustro a propuesta del Consejo Escolar.
