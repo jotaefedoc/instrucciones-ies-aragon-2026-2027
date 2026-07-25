@@ -9,7 +9,7 @@ Esta carpeta conserva el código y el proceso reproducible del portal público:
 
 ## Flujo automático
 
-1. Una modificación de los Markdown o del manifiesto en la rama `main` activa GitHub Actions.
+1. Una modificación de los Markdown o del manifiesto en la rama `main` activa GitHub Actions. El flujo también puede iniciarse manualmente desde la sección de acciones del repositorio.
 2. La acción vuelve a leer los documentos públicos y regenera:
    - `portal-data/search-index.json`;
    - `portal-data/calendar-events.json`.
