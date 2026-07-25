@@ -947,7 +947,12 @@ function buildIcs(items: EventItem[]) {
 
 export default function Home() {
   const [events, setEvents] = useState<EventItem[]>(fallbackEvents);
-  const [today, setToday] = useState("");
+  const [today] = useState(() => {
+    const now = new Date();
+    return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(
+      now.getDate(),
+    ).padStart(2, "0")}`;
+  });
   const [query, setQuery] = useState("");
   const [area, setArea] = useState("Todos");
   const [teaching, setTeaching] = useState("Todas");
@@ -985,12 +990,6 @@ export default function Home() {
   const [selectedDiagramId, setSelectedDiagramId] = useState("doc");
 
   useEffect(() => {
-    const now = new Date();
-    setToday(
-      `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(
-        now.getDate(),
-      ).padStart(2, "0")}`,
-    );
     const loadJson = async <T,>(remoteName: string, localPath: string) => {
       try {
         const response = await fetch(`${repositoryDataBase}/${remoteName}`, {
@@ -1085,7 +1084,7 @@ export default function Home() {
         return a.date.localeCompare(b.date);
       })
       .slice(0, 3);
-  }, [today]);
+  }, [events, today]);
 
   const formattedUpdateDate = useMemo(() => {
     if (!searchIndex?.generatedAt) return null;
@@ -1344,7 +1343,7 @@ export default function Home() {
       const haystack = normalizeSearch(`${event.program} ${event.title} ${event.detail}`);
       return names.some((name) => haystack.includes(name));
     });
-  }, [selectedProgramDefinitions, selectedPrograms.length]);
+  }, [events, selectedProgramDefinitions, selectedPrograms.length]);
 
   const areaRecords = useMemo(() => {
     if (!selectedArea || !searchIndex) return [];
@@ -1389,7 +1388,7 @@ export default function Home() {
       );
       return selectedArea.eventTerms.some((term) => haystack.includes(normalizeSearch(term)));
     }).slice(0, 10);
-  }, [selectedArea]);
+  }, [events, selectedArea]);
 
   const filtered = useMemo(() => {
     const normalized = normalizeSearch(query.trim());
@@ -1427,7 +1426,7 @@ export default function Home() {
             ].join(" "),
           ).includes(normalized)),
     );
-  }, [applicability, area, coursePeriod, nature, program, query, teaching, timeStatus]);
+  }, [applicability, area, coursePeriod, events, nature, program, query, teaching, timeStatus]);
 
   const monthItems = useMemo(
     () =>
@@ -1478,7 +1477,7 @@ export default function Home() {
         return event.date <= agendaEnd && eventEnd >= agendaStart;
       })
       .sort((a, b) => a.date.localeCompare(b.date));
-  }, [agendaEnd, agendaStart]);
+  }, [agendaEnd, agendaStart, events]);
 
   const setUpcomingPeriod = (days: number) => {
     const start = new Date();
