@@ -964,6 +964,15 @@ export default function Home() {
   const [view, setView] = useState<"lista" | "tabla" | "mes">("lista");
   const [calendarMonth, setCalendarMonth] = useState("2026-09");
   const [showIcsHelp, setShowIcsHelp] = useState(false);
+  const [showCalendarBuilder, setShowCalendarBuilder] = useState(false);
+  const [customCalendarName, setCustomCalendarName] = useState(
+    "Calendario IES Aragón 2026-2027",
+  );
+  const [customTeachings, setCustomTeachings] = useState<string[]>([]);
+  const [customAreas, setCustomAreas] = useState<string[]>([]);
+  const [customPrograms, setCustomPrograms] = useState<string[]>([]);
+  const [customIncludeGeneral, setCustomIncludeGeneral] = useState(true);
+  const [customExcludedEvents, setCustomExcludedEvents] = useState<string[]>([]);
   const [documentQuery, setDocumentQuery] = useState("");
   const [searchIndex, setSearchIndex] = useState<SearchIndex | null>(null);
   const [searchError, setSearchError] = useState(false);
@@ -1506,6 +1515,65 @@ export default function Home() {
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
     link.download = "calendario-ies-aragon-2026-2027.ics";
+    link.click();
+    URL.revokeObjectURL(link.href);
+    setShowIcsHelp(true);
+  };
+
+  const customCalendarEvents = useMemo(
+    () =>
+      events.filter((event) => {
+        const teachingMatch =
+          customTeachings.length === 0 ||
+          event.teachings.some((item) => customTeachings.includes(item)) ||
+          (customIncludeGeneral && event.teachings.length === 0);
+        const areaMatch =
+          customAreas.length === 0 || customAreas.includes(event.area);
+        const programMatch =
+          customPrograms.length === 0 ||
+          (event.program && customPrograms.includes(event.program));
+        return (
+          teachingMatch &&
+          areaMatch &&
+          programMatch &&
+          !customExcludedEvents.includes(event.id)
+        );
+      }),
+    [
+      customAreas,
+      customExcludedEvents,
+      customIncludeGeneral,
+      customPrograms,
+      customTeachings,
+      events,
+    ],
+  );
+
+  const toggleCustomValue = (
+    value: string,
+    selected: string[],
+    setSelected: (values: string[]) => void,
+  ) =>
+    setSelected(
+      selected.includes(value)
+        ? selected.filter((item) => item !== value)
+        : [...selected, value],
+    );
+
+  const downloadCustomIcs = () => {
+    const safeName =
+      customCalendarName
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "") || "calendario-personalizado";
+    const blob = new Blob([buildIcs(customCalendarEvents)], {
+      type: "text/calendar;charset=utf-8",
+    });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = `${safeName}.ics`;
     link.click();
     URL.revokeObjectURL(link.href);
     setShowIcsHelp(true);
@@ -2216,10 +2284,168 @@ export default function Home() {
               Descargar CSV
             </button>
             <button className="button export" onClick={downloadIcs}>
-              Descargar .ics
+              Descargar .ics filtrado
+            </button>
+            <button
+              className="button primary"
+              onClick={() => setShowCalendarBuilder((current) => !current)}
+              aria-expanded={showCalendarBuilder}
+            >
+              Crear calendario personalizado
             </button>
           </div>
         </div>
+
+        {showCalendarBuilder && (
+          <section className="calendar-builder" aria-label="Crear calendario personalizado">
+            <div className="calendar-builder-heading">
+              <div>
+                <p className="eyebrow">Exportación configurable</p>
+                <h3>Crea un calendario ajustado a tu centro</h3>
+                <p>
+                  Puedes combinar varias enseñanzas, ámbitos y programas y,
+                  después, excluir actuaciones concretas antes de descargar el
+                  archivo compatible con Google Calendar y Outlook.
+                </p>
+              </div>
+              <label className="calendar-name">
+                Nombre del calendario
+                <input
+                  value={customCalendarName}
+                  onChange={(event) => setCustomCalendarName(event.target.value)}
+                />
+              </label>
+            </div>
+
+            <div className="calendar-builder-groups">
+              <fieldset>
+                <legend>Enseñanzas</legend>
+                {[...new Set(events.flatMap((item) => item.teachings))].map((value) => (
+                  <label key={value}>
+                    <input
+                      type="checkbox"
+                      checked={customTeachings.includes(value)}
+                      onChange={() =>
+                        toggleCustomValue(value, customTeachings, setCustomTeachings)
+                      }
+                    />
+                    {value}
+                  </label>
+                ))}
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={customIncludeGeneral}
+                    onChange={(event) => setCustomIncludeGeneral(event.target.checked)}
+                  />
+                  Incluir actuaciones generales
+                </label>
+                <small>Sin marcar enseñanzas se incluyen todas.</small>
+              </fieldset>
+
+              <fieldset>
+                <legend>Ámbitos</legend>
+                {[...new Set(events.map((item) => item.area))].map((value) => (
+                  <label key={value}>
+                    <input
+                      type="checkbox"
+                      checked={customAreas.includes(value)}
+                      onChange={() => toggleCustomValue(value, customAreas, setCustomAreas)}
+                    />
+                    {value}
+                  </label>
+                ))}
+                <small>Sin marcar ámbitos se incluyen todos.</small>
+              </fieldset>
+
+              <fieldset>
+                <legend>Programas</legend>
+                {[...new Set(events.map((item) => item.program).filter(Boolean))].map(
+                  (value) => (
+                    <label key={value}>
+                      <input
+                        type="checkbox"
+                        checked={customPrograms.includes(value)}
+                        onChange={() =>
+                          toggleCustomValue(value, customPrograms, setCustomPrograms)
+                        }
+                      />
+                      {value}
+                    </label>
+                  ),
+                )}
+                <small>Sin marcar programas no se aplica este filtro.</small>
+              </fieldset>
+            </div>
+
+            <details className="calendar-event-picker">
+              <summary>
+                Revisar y excluir actuaciones concretas ({customCalendarEvents.length} incluidas)
+              </summary>
+              <div>
+                {events
+                  .filter((event) => {
+                    const teachingMatch =
+                      customTeachings.length === 0 ||
+                      event.teachings.some((item) => customTeachings.includes(item)) ||
+                      (customIncludeGeneral && event.teachings.length === 0);
+                    return (
+                      teachingMatch &&
+                      (customAreas.length === 0 || customAreas.includes(event.area)) &&
+                      (customPrograms.length === 0 ||
+                        (event.program && customPrograms.includes(event.program)))
+                    );
+                  })
+                  .map((event) => (
+                    <label key={event.id}>
+                      <input
+                        type="checkbox"
+                        checked={!customExcludedEvents.includes(event.id)}
+                        onChange={() =>
+                          setCustomExcludedEvents((current) =>
+                            current.includes(event.id)
+                              ? current.filter((id) => id !== event.id)
+                              : [...current, event.id],
+                          )
+                        }
+                      />
+                      <span>
+                        <strong>{event.dateLabel}</strong> · {event.title}
+                      </span>
+                    </label>
+                  ))}
+              </div>
+            </details>
+
+            <div className="calendar-builder-footer">
+              <p>
+                <strong>{customCalendarEvents.length}</strong> actuaciones se
+                incluirán en «{customCalendarName || "Calendario personalizado"}».
+              </p>
+              <div className="export-actions">
+                <button
+                  className="text-button"
+                  onClick={() => {
+                    setCustomTeachings([]);
+                    setCustomAreas([]);
+                    setCustomPrograms([]);
+                    setCustomIncludeGeneral(true);
+                    setCustomExcludedEvents([]);
+                  }}
+                >
+                  Reiniciar selección
+                </button>
+                <button
+                  className="button primary"
+                  onClick={downloadCustomIcs}
+                  disabled={!customCalendarEvents.length}
+                >
+                  Descargar calendario personalizado .ics
+                </button>
+              </div>
+            </div>
+          </section>
+        )}
 
         {showIcsHelp && (
           <div className="ics-guide" role="status">
