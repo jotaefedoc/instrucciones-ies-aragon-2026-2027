@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:58:39.859Z",
+  "generatedAt": "2026-07-26T07:20:53.891Z",
   "documentCount": 24,
   "records": [
     {
@@ -40,7 +40,7 @@
       "kind": "Documento",
       "document": "Base operativa de las instrucciones IES 2026/2027",
       "section": "Portal público",
-      "text": "Portal público La Guía operativa IES Aragón 2026/2027 organiza estos documentos como calendario, buscador, explorador por ámbitos, catálogo de programas, lista de control, esquemas y herramientas de exportación. Cuando cambia un Markdown o el manifiesto en main , GitHub Actions regenera y valida los JSON de portal-data/ . La web consulta esos datos al abrirse y mantiene una copia local de respaldo. El proceso completo está documentado en portal/README.md .",
+      "text": "Portal público La Guía operativa IES Aragón 2026/2027 organiza estos documentos como calendario, buscador, explorador por ámbitos, catálogo de programas, lista de control, esquemas y herramientas de exportación. Cuando cambia contenido o código en main , GitHub Actions regenera y valida los JSON de portal-data/ , construye la web y la publica en GitHub Pages. La web consulta esos datos al abrirse y mantiene una copia local de respaldo. El proceso completo está documentado en portal/README.md .",
       "url": "https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/blob/main/README.md#portal-publico",
       "path": "README.md",
       "level": 2,
