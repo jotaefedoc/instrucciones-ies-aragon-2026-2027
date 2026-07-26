@@ -48,3 +48,33 @@ La plantilla pública debe permanecer vacía. Una copia cumplimentada no debe vo
 ## GitHub
 
 Este repositorio público conserva el historial y permite enlazar una versión exacta de la fuente. Los derivados y modelos genéricos públicos pueden mantenerse aquí. Las adaptaciones cumplimentadas que contengan decisiones internas deben guardarse en un entorno privado separado; los datos personales y documentos confidenciales deben permanecer fuera de GitHub.
+
+
+## Consulta pública y validez de la información
+
+Cualquier centro educativo puede consultar y utilizar gratuitamente la guía pública como instrumento de apoyo organizativo.
+
+La guía **no es una publicación oficial** y puede contener errores de transcripción, interpretación o actualización. Antes de aplicar cualquier fecha, dato o indicación debe contrastarse con las [Instrucciones oficiales de inicio de curso 2026/2027 para los IES de Aragón](https://educa.aragon.es/documents/20126/6844128/CSVFV61LMW0LZ120XFIL%2BInstrucciones%2Bcurso%2B2026-2027%2Bpara%2Bcentros%2Beducativos._03%2BIES%2B2026-2027%2BV8-%28Instrucciones%29.pdf/ff9b76e8-b92f-291b-b736-6f093187162c?t=1784615539858), así como con la normativa y las modificaciones posteriores que resulten aplicables.
+
+## Licencias y reutilización
+
+Este proyecto utiliza una licencia doble:
+
+- Los **contenidos, datos estructurados, explicaciones, modelos y materiales originales** se ofrecen bajo [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](LICENSES.md#contenidos-y-datos-originales), con atribución a **@jotaefedoc**.
+- El **código fuente y los scripts** se ofrecen bajo [GNU General Public License v3.0 or later (GPL-3.0-or-later)](LICENSES.md#código-fuente).
+
+Se permite usar, copiar, adaptar y compartir el material. Las versiones derivadas que se distribuyan deben reconocer la autoría de **@jotaefedoc**, enlazar este repositorio, indicar los cambios realizados y mantenerse bajo la licencia correspondiente.
+
+Las disposiciones oficiales, los documentos normativos y los materiales de terceros conservan su autoría y régimen jurídico propios y **no quedan relicenciados** por este repositorio.
+
+## Adaptaciones privadas de centros
+
+Un centro puede crear una adaptación propia en un repositorio privado o en otro entorno institucional autorizado. Debe partir de una copia separada y mantener fuera del repositorio público responsables nominales, decisiones internas, actas, evidencias, credenciales, datos personales y documentación confidencial.
+
+Las instrucciones se recogen en [templates/adaptacion-centro/README.md](templates/adaptacion-centro/README.md).
+
+## Comunicación de errores
+
+Los posibles errores pueden comunicarse mediante la plantilla [Comunicar un posible error](https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/issues/new?template=error-en-la-guia.yml).
+
+Las incidencias de GitHub son públicas. No deben incluir nombres, datos personales ni información interna o confidencial de ningún centro.
