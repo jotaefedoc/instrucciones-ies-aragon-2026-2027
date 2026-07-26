@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T06:57:51.866Z",
-  "documentCount": 23,
+  "generatedAt": "2026-07-26T06:58:39.859Z",
+  "documentCount": 24,
   "records": [
     {
       "id": "README.md-0",
@@ -14458,7 +14458,51 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1276",
+      "id": "templates/adaptacion-centro/README.md-1276",
+      "kind": "Plantilla",
+      "document": "Crear una adaptación privada para un centro",
+      "section": "Crear una adaptación privada para un centro",
+      "text": "Crear una adaptación privada para un centro Esta carpeta contiene una plantilla pública y vacía. Para utilizarla en un centro: 1. crea una copia separada del repositorio o descarga únicamente la plantilla; 2. guarda la adaptación en un repositorio privado o en el entorno institucional autorizado; 3. configura solo las enseñanzas, programas, responsables funcionales y fechas internas que necesite el centro; 4. mantén referencias a las fuentes oficiales y registra qué elementos has modificado; 5. no devuelvas al repositorio público la plantilla cumplimentada.",
+      "url": "https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/blob/main/templates/adaptacion-centro/README.md#crear-una-adaptacion-privada-para-un-centro",
+      "path": "templates/adaptacion-centro/README.md",
+      "level": 1,
+      "chunk": 1
+    },
+    {
+      "id": "templates/adaptacion-centro/README.md-1277",
+      "kind": "Plantilla",
+      "document": "Crear una adaptación privada para un centro",
+      "section": "Información que no debe publicarse",
+      "text": "Información que no debe publicarse No incorpores al repositorio público: - nombres del profesorado, alumnado o familias; - credenciales, claves o enlaces privados; - actas, informes, incidencias o evidencias reales; - decisiones reservadas o documentos internos; - datos personales o cualquier información confidencial.",
+      "url": "https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/blob/main/templates/adaptacion-centro/README.md#informacion-que-no-debe-publicarse",
+      "path": "templates/adaptacion-centro/README.md",
+      "level": 2,
+      "chunk": 1
+    },
+    {
+      "id": "templates/adaptacion-centro/README.md-1278",
+      "kind": "Plantilla",
+      "document": "Crear una adaptación privada para un centro",
+      "section": "Licencia y atribución",
+      "text": "Licencia y atribución Los contenidos y datos originales se ofrecen bajo CC BY-SA 4.0 y el código bajo GPL-3.0-or-later. Si distribuyes una versión derivada: - atribuye la base original a @jotaefedoc ; - enlaza https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027; - identifica los cambios del centro; - conserva la licencia correspondiente. Consulta LICENSES.md para conocer las condiciones completas.",
+      "url": "https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/blob/main/templates/adaptacion-centro/README.md#licencia-y-atribucion",
+      "path": "templates/adaptacion-centro/README.md",
+      "level": 2,
+      "chunk": 1
+    },
+    {
+      "id": "templates/adaptacion-centro/README.md-1279",
+      "kind": "Plantilla",
+      "document": "Crear una adaptación privada para un centro",
+      "section": "Validez",
+      "text": "Validez La adaptación sigue siendo una herramienta de apoyo. Todas las fechas, datos e instrucciones deben contrastarse con las Instrucciones oficiales de inicio de curso, la normativa vigente y las modificaciones posteriores aplicables.",
+      "url": "https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/blob/main/templates/adaptacion-centro/README.md#validez",
+      "path": "templates/adaptacion-centro/README.md",
+      "level": 2,
+      "chunk": 1
+    },
+    {
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1280",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "Plantilla genérica de adaptación operativa para centros",
@@ -14469,7 +14513,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1277",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1281",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "1. Finalidad y forma segura de uso",
@@ -14480,7 +14524,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1278",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1282",
       "kind": "Plantilla",
       "title": "Pública",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14492,7 +14536,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1279",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1283",
       "kind": "Plantilla",
       "title": "Interna",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14504,7 +14548,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1280",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1284",
       "kind": "Plantilla",
       "title": "Confidencial",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14516,7 +14560,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1281",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1285",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "2. Límites de información",
@@ -14527,7 +14571,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1282",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1286",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "2.1. Información que no debe incorporarse a esta plantilla",
@@ -14538,7 +14582,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1283",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1287",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "3.1. Naturaleza",
@@ -14549,7 +14593,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1284",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1288",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "3.2. Estado",
@@ -14560,7 +14604,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1285",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1289",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "3.3. Nivel de evidencia",
@@ -14571,7 +14615,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1286",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1290",
       "kind": "Plantilla",
       "title": "Curso",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14583,7 +14627,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1287",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1291",
       "kind": "Plantilla",
       "title": "Código interno de la adaptación",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14595,7 +14639,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1288",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1292",
       "kind": "Plantilla",
       "title": "Fecha de creación",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14607,7 +14651,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1289",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1293",
       "kind": "Plantilla",
       "title": "Última revisión",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14619,7 +14663,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1290",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1294",
       "kind": "Plantilla",
       "title": "Responsable de mantenimiento",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14631,7 +14675,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1291",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1295",
       "kind": "Plantilla",
       "title": "Responsable de supervisión",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14643,7 +14687,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1292",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1296",
       "kind": "Plantilla",
       "title": "Órgano o equipo de seguimiento",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14655,7 +14699,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1293",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1297",
       "kind": "Plantilla",
       "title": "Frecuencia de revisión",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14667,7 +14711,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1294",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1298",
       "kind": "Plantilla",
       "title": "Ubicación institucional de documentos reales",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14679,7 +14723,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1295",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1299",
       "kind": "Plantilla",
       "title": "Norma interna para codificar evidencias",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14691,7 +14735,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1296",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1300",
       "kind": "Plantilla",
       "title": "Personas autorizadas para acceder",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14703,7 +14747,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1297",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1301",
       "kind": "Plantilla",
       "title": "Observaciones de seguridad",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14715,7 +14759,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1298",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1302",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "4. Configuración de la copia privada",
@@ -14726,7 +14770,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1299",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1303",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "5. Panel de hitos prioritarios",
@@ -14737,7 +14781,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1300",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1304",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "6. Registro maestro de actuaciones",
@@ -14748,7 +14792,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1301",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1305",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "6.1. Ámbitos normalizados",
@@ -14759,7 +14803,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1302",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1306",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7. Lista de control de inicio de curso",
@@ -14770,7 +14814,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1303",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1307",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14782,7 +14826,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1304",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1308",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7.1. Preparación previa",
@@ -14793,7 +14837,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1305",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1309",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14805,7 +14849,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1306",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1310",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7.2. Primeras reuniones y decisiones institucionales",
@@ -14816,7 +14860,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1307",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1311",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14828,7 +14872,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1308",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1312",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7.3. Septiembre",
@@ -14839,7 +14883,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1309",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1313",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14851,7 +14895,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1310",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1314",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7.4. DOC, PGA y documentación vinculada",
@@ -14862,7 +14906,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1311",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1315",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14874,7 +14918,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1312",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1316",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "7.5. Actuaciones condicionadas",
@@ -14885,7 +14929,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1313",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1317",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8. Programas educativos 2026/2027",
@@ -14896,7 +14940,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1314",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1318",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8.1. Cartera inicial y decisión",
@@ -14907,7 +14951,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1315",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1319",
       "kind": "Plantilla",
       "title": "8.2. Preparación y presentación de solicitudes",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14919,7 +14963,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1316",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1320",
       "kind": "Plantilla",
       "title": "8.2. Preparación y presentación de solicitudes",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14931,7 +14975,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1317",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1321",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8.2. Preparación y presentación de solicitudes",
@@ -14942,7 +14986,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1318",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1322",
       "kind": "Plantilla",
       "title": "8.3. Resolución e implantación",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -14954,7 +14998,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1319",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1323",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8.3. Resolución e implantación",
@@ -14965,7 +15009,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1320",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1324",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8.4. Seguimiento, memoria y certificación",
@@ -14976,7 +15020,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1321",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1325",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "8.5. Hitos específicos",
@@ -14987,7 +15031,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1322",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1326",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "9. Registro de decisiones del centro",
@@ -14998,7 +15042,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1323",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1327",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "10. Registro controlado de evidencias",
@@ -15009,7 +15053,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1324",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1328",
       "kind": "Plantilla",
       "title": "Código de actuación",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15021,7 +15065,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1325",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1329",
       "kind": "Plantilla",
       "title": "Código de evidencia",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15033,7 +15077,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1326",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1330",
       "kind": "Plantilla",
       "title": "Código de decisión",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15045,7 +15089,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1327",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1331",
       "kind": "Plantilla",
       "title": "Código de programa",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15057,7 +15101,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1328",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1332",
       "kind": "Plantilla",
       "title": "Numeración anual",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15069,7 +15113,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1329",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1333",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "10.1. Convención de códigos",
@@ -15080,7 +15124,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1330",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1334",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "11. Rutinas periódicas",
@@ -15091,7 +15135,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1331",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1335",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "12. Incidencias y bloqueos operativos",
@@ -15102,7 +15146,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1332",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-row-1336",
       "kind": "Plantilla",
       "title": "[ ]",
       "document": "Plantilla genérica de adaptación operativa para centros",
@@ -15114,7 +15158,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1333",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1337",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "13. Cierre de curso y conexión con el siguiente",
@@ -15125,7 +15169,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1334",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1338",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "14. Control de revisiones de la adaptación",
@@ -15136,7 +15180,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1335",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1339",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "15. Comprobación antes de cada cierre o publicación",
@@ -15147,7 +15191,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1336",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1340",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "16. Referencias públicas de base",
@@ -15158,7 +15202,7 @@
       "chunk": 1
     },
     {
-      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1337",
+      "id": "templates/adaptacion-centro/plantilla-generica-adaptacion-centro.md-1341",
       "kind": "Plantilla",
       "document": "Plantilla genérica de adaptación operativa para centros",
       "section": "17. Nota final de seguridad",
