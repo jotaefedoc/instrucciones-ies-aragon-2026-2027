@@ -84,6 +84,7 @@ function highlightedSnippet(text: string, query: string) {
 const fallbackEvents = calendarEvents as EventItem[];
 const repositoryDataBase =
   "https://raw.githubusercontent.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/main/portal-data";
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 type AreaDefinition = {
   id: string;
@@ -1014,8 +1015,8 @@ export default function Home() {
     };
 
     Promise.all([
-      loadJson<SearchIndex>("search-index.json", "/search-index.json"),
-      loadJson<EventItem[]>("calendar-events.json", "/calendar-events.json"),
+      loadJson<SearchIndex>("search-index.json", `${publicBasePath}/search-index.json`),
+      loadJson<EventItem[]>("calendar-events.json", `${publicBasePath}/calendar-events.json`),
     ])
       .then(([indexResult, calendarResult]) => {
         if (!Array.isArray(indexResult.data.records)) {

@@ -1,0 +1,5 @@
+.next/
+node_modules/
+out/
+public/calendar-events.json
+public/search-index.json

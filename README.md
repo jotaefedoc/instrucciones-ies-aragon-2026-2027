@@ -20,9 +20,9 @@ El PDF oficial firmado continúa siendo la referencia jurídica primaria. Para d
 
 ## Portal público
 
-La [Guía operativa IES Aragón 2026/2027](https://guia-operativa-ies-aragon-2026-2027.jotaefedoc.chatgpt.site) organiza estos documentos como calendario, buscador, explorador por ámbitos, catálogo de programas, lista de control, esquemas y herramientas de exportación.
+La [Guía operativa IES Aragón 2026/2027](https://jotaefedoc.github.io/instrucciones-ies-aragon-2026-2027/) organiza estos documentos como calendario, buscador, explorador por ámbitos, catálogo de programas, lista de control, esquemas y herramientas de exportación.
 
-Cuando cambia un Markdown o el manifiesto en `main`, GitHub Actions regenera y valida los JSON de `portal-data/`. La web consulta esos datos al abrirse y mantiene una copia local de respaldo. El proceso completo está documentado en [`portal/README.md`](portal/README.md).
+Cuando cambia contenido o código en `main`, GitHub Actions regenera y valida los JSON de `portal-data/`, construye la web y la publica en GitHub Pages. La web consulta esos datos al abrirse y mantiene una copia local de respaldo. El proceso completo está documentado en [`portal/README.md`](portal/README.md).
 
 ## Regla esencial
 

@@ -2,10 +2,10 @@
 
 Esta carpeta conserva el código y el proceso reproducible del portal público:
 
-- `site/`: interfaz publicada en ChatGPT Sites.
+- `site/`: interfaz publicada automáticamente en GitHub Pages.
 - `scripts/`: generación y validación del índice documental y del calendario.
 - `../portal-data/`: JSON públicos consumidos por la web.
-- `../.github/workflows/update-portal-data.yml`: regeneración automática.
+- `../.github/workflows/deploy-pages.yml`: regeneración, validación y publicación automática.
 
 ## Flujo automático
 
@@ -14,14 +14,14 @@ Esta carpeta conserva el código y el proceso reproducible del portal público:
    - `portal-data/search-index.json`;
    - `portal-data/calendar-events.json`.
 3. La validación comprueba el número de documentos, fragmentos, actuaciones, campos obligatorios, identificadores y fechas.
-4. Si el resultado es válido y ha cambiado, la acción publica los nuevos JSON en el repositorio.
-5. El portal consulta esos archivos al abrirse, sin exigir una nueva publicación de la interfaz.
-6. Si GitHub no está disponible temporalmente, utiliza la copia estable incluida en la última versión publicada.
+4. Si el resultado es válido y ha cambiado, la acción conserva los nuevos JSON en el repositorio.
+5. La misma acción construye la interfaz estática y la publica en GitHub Pages.
+6. El portal consulta los datos públicos del repositorio y utiliza la copia incluida en la publicación si esa consulta no estuviera disponible.
 
 Este flujo mantiene una única fuente documental pública y evita mantener manualmente una segunda copia del calendario.
 
 ## Alcance
 
-Las modificaciones documentales se reflejan automáticamente en el buscador, las fichas, los ámbitos, los programas, el calendario y los próximos hitos. Los cambios de diseño o de funcionalidad de la propia interfaz requieren crear una nueva versión del sitio, porque pertenecen al código y no al contenido documental.
+Las modificaciones documentales se reflejan automáticamente en el buscador, las fichas, los ámbitos, los programas, el calendario y los próximos hitos. Los cambios de diseño o funcionalidad también se publican automáticamente cuando quedan incorporados a `main`.
 
 La web sigue siendo una guía de apoyo. No sustituye la normativa, las instrucciones oficiales ni los sistemas institucionales.
