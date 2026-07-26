@@ -1,0 +1,53 @@
+name: Comunicar un posible error
+description: Avisa de una fecha, un dato, una referencia o una indicación que debería comprobarse.
+title: "[Posible error] "
+labels:
+  - "posible error"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar la guía. La incidencia será pública.
+
+        No incluyas nombres, datos personales, credenciales ni información interna o confidencial de ningún centro. La referencia definitiva será siempre el documento oficial vigente.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de posible error
+      options:
+        - Fecha o plazo
+        - Dato o requisito
+        - Instrucción o explicación
+        - Enlace o referencia
+        - Funcionamiento de la web
+        - Otro
+    validations:
+      required: true
+  - type: input
+    id: ubicacion
+    attributes:
+      label: Dónde aparece
+      description: Indica la sección, ficha, actuación o texto donde has detectado el problema.
+      placeholder: "Ej.: Calendario > Remisión del DOC"
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Explica brevemente qué parece incorrecto y cuál sería la corrección.
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente oficial para contrastarlo
+      description: Si la conoces, añade el enlace, apartado o página del documento oficial.
+      placeholder: "Ej.: Instrucciones IES 2026/2027, apartado 3.2, página 14"
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Comprobación de privacidad
+      options:
+        - label: Confirmo que no he incluido datos personales ni información interna o confidencial de ningún centro.
+          required: true
