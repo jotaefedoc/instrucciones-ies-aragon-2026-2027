@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -34,18 +34,6 @@ jobs:
           node portal/scripts/generate-search-index.mjs . portal-data/search-index.json
           node portal/scripts/generate-calendar-events.mjs portal-data/search-index.json portal-data/calendar-events.json
           node portal/scripts/validate-portal-data.mjs portal-data/search-index.json portal-data/calendar-events.json
-
-      - name: Conservar los datos regenerados
-        run: |
-          if git diff --quiet -- portal-data; then
-            echo "Los datos ya estaban actualizados."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add portal-data
-            git commit -m "Actualizar datos del portal"
-            git push
-          fi
 
       - name: Preparar los datos de respaldo
         run: |
