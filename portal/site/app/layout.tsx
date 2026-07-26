@@ -4,6 +4,7 @@ import "./globals.css";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const siteUrl =
   "https://jotaefedoc.github.io/instrucciones-ies-aragon-2026-2027/";
+const socialImageUrl = `${siteUrl}social-card.svg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
       "Calendario, documentación y herramientas de apoyo para los equipos directivos de los IES de Aragón.",
     images: [
       {
-        url: `${basePath}/social-card.svg`,
+        url: socialImageUrl,
         width: 1200,
         height: 630,
         alt: "Guía operativa IES Aragón 2026/2027 para equipos directivos",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     title: "Guía operativa IES Aragón 2026/2027",
     description:
       "Calendario, documentación y herramientas de apoyo para los equipos directivos de los IES de Aragón.",
-    images: [`${basePath}/social-card.svg`],
+    images: [socialImageUrl],
     creator: "@jotaefedoc",
   },
   icons: {
