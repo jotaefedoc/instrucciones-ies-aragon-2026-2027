@@ -1738,6 +1738,7 @@ export default function Home() {
           <a href="#checklist">Checklist</a>
           <a href="#programas">Programas</a>
           <a href="#esquemas">Esquemas</a>
+          <a href="#uso-y-licencia">Uso y licencia</a>
           <a
             className="source-link"
             href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027"
@@ -1820,6 +1821,28 @@ export default function Home() {
           </b>
         </span>
       </section>
+
+      <aside className="official-notice" aria-labelledby="official-notice-title">
+        <div>
+          <p className="eyebrow">Aviso esencial</p>
+          <h2 id="official-notice-title">Comprueba siempre la fuente oficial</h2>
+          <p>
+            Esta web es un instrumento de apoyo organizativo y puede contener
+            errores. No es una publicación oficial ni sustituye las
+            Instrucciones de inicio de curso. Antes de aplicar cualquier fecha,
+            dato o indicación, contrástalo con el documento oficial y con sus
+            posibles modificaciones posteriores.
+          </p>
+        </div>
+        <a
+          className="button official-button"
+          href="https://educa.aragon.es/documents/20126/6844128/CSVFV61LMW0LZ120XFIL%2BInstrucciones%2Bcurso%2B2026-2027%2Bpara%2Bcentros%2Beducativos._03%2BIES%2B2026-2027%2BV8-%28Instrucciones%29.pdf/ff9b76e8-b92f-291b-b736-6f093187162c?t=1784615539858"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Abrir las Instrucciones oficiales (PDF)
+        </a>
+      </aside>
 
       <section className="editorial-status" aria-label="Estado y alcance de la guía">
         <div>
@@ -3371,21 +3394,123 @@ export default function Home() {
         </article>
       </section>
 
+      <section className="section usage-section" id="uso-y-licencia">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Consulta, validez y reutilización</p>
+            <h2>Una guía pública, reutilizable y siempre subordinada a la fuente oficial</h2>
+            <p>
+              Cualquier centro educativo puede consultar y utilizar gratuitamente
+              esta web como apoyo para organizar el curso.
+            </p>
+          </div>
+        </div>
+
+        <div className="usage-grid">
+          <article className="usage-card usage-card-caution">
+            <span className="usage-number">01</span>
+            <h3>Carácter no oficial</h3>
+            <p>
+              La única referencia válida es el documento oficial de Instrucciones
+              de inicio de curso para los IES de Aragón, junto con las normas y
+              actualizaciones que resulten aplicables. Esta guía organiza y
+              explica información pública, pero puede contener errores de
+              transcripción, interpretación o actualización.
+            </p>
+            <a
+              href="https://educa.aragon.es/documents/20126/6844128/CSVFV61LMW0LZ120XFIL%2BInstrucciones%2Bcurso%2B2026-2027%2Bpara%2Bcentros%2Beducativos._03%2BIES%2B2026-2027%2BV8-%28Instrucciones%29.pdf/ff9b76e8-b92f-291b-b736-6f093187162c?t=1784615539858"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Consultar el PDF oficial en Educaragón →
+            </a>
+          </article>
+
+          <article className="usage-card">
+            <span className="usage-number">02</span>
+            <h3>Licencia abierta</h3>
+            <p>
+              Los contenidos y datos originales se ofrecen bajo licencia
+              Creative Commons Atribución-CompartirIgual 4.0 Internacional
+              (CC BY-SA 4.0), con atribución a <strong>@jotaefedoc</strong>. El
+              código se publica bajo GPL-3.0-or-later. Se permite copiar,
+              adaptar y compartir, manteniendo la atribución y la misma licencia
+              en las versiones derivadas que se distribuyan.
+            </p>
+            <a
+              href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027#licencias-y-reutilización"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ver licencias y condiciones completas →
+            </a>
+          </article>
+
+          <article className="usage-card">
+            <span className="usage-number">03</span>
+            <h3>Adaptaciones de centro</h3>
+            <p>
+              Un centro puede crear una versión propia, incluso en un entorno
+              privado, a partir del repositorio público. Las adaptaciones con
+              responsables, decisiones o documentación interna deben mantenerse
+              separadas de esta base común. No deben publicarse datos personales,
+              credenciales ni información confidencial.
+            </p>
+            <a
+              href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/tree/main/templates/adaptacion-centro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Consultar instrucciones de adaptación →
+            </a>
+          </article>
+        </div>
+
+        <aside className="error-report">
+          <div>
+            <strong>¿Has detectado una fecha, un dato o una indicación incorrecta?</strong>
+            <p>
+              Puedes comunicarlo mediante GitHub. El aviso será público: no
+              incluyas nombres, datos personales ni información interna de tu
+              centro.
+            </p>
+          </div>
+          <a
+            className="button secondary"
+            href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027/issues/new?template=error-en-la-guia.yml"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Comunicar un posible error
+          </a>
+        </aside>
+      </section>
+
       <footer>
         <div>
           <strong>Guía operativa IES Aragón · 2026/2027</strong>
           <p>
-            Recurso público de apoyo. Para decisiones relevantes, consulta
-            siempre el PDF oficial y la referencia indicada.
+            Recurso público de apoyo elaborado por @jotaefedoc. No es una fuente
+            oficial: contrasta siempre fechas, datos e instrucciones con el PDF
+            oficial y sus posibles actualizaciones.
           </p>
         </div>
-        <a
-          href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Consultar repositorio y fuentes →
-        </a>
+        <div className="footer-links">
+          <a
+            href="https://educa.aragon.es/documents/20126/6844128/CSVFV61LMW0LZ120XFIL%2BInstrucciones%2Bcurso%2B2026-2027%2Bpara%2Bcentros%2Beducativos._03%2BIES%2B2026-2027%2BV8-%28Instrucciones%29.pdf/ff9b76e8-b92f-291b-b736-6f093187162c?t=1784615539858"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Fuente oficial
+          </a>
+          <a
+            href="https://github.com/jotaefedoc/instrucciones-ies-aragon-2026-2027"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Repositorio y licencias
+          </a>
+        </div>
       </footer>
     </main>
   );
